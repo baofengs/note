@@ -8,8 +8,6 @@
 >   * gulp-minify-css
 >   * gulp-imagemin & imagemin-pngquant
 
-## 
-
 ## 安装
 
 ```

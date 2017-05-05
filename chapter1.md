@@ -22,9 +22,7 @@ gulp.task('default', ['cp']);
 
 ## 结合相关 gulp 插件使用
 
-### 插件获取: \[npmjs\]\(https://www.npmjs.com/\)
-
-
+### 插件获取: \[npmjs\]\([https://www.npmjs.com/](https://www.npmjs.com/\)\)
 
 
 

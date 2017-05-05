@@ -1,6 +1,6 @@
-# 书单：
+# 书单
 
-* Javascript语言精粹（javascript: the good parts）
+* Javascript语言精粹
 
 * Javascript 高级程序设计
 

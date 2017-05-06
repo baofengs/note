@@ -10,9 +10,11 @@
 
 ## 安装
 
-```
+```shell
 npm install -g gulp
 ```
+
+
 
 ## 基本使用
 

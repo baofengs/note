@@ -2,6 +2,7 @@
 
 > * gulp 安装 & 基本使用
 > * gulp 插件安装 & 使用
+>
 >   * gulp-sass
 >   * browser-sync
 >   * gulp-autoprefixer
@@ -190,12 +191,10 @@ fe
 ├── package.json
 └── public           // 编译生成的结果目录
 
-3 directories, 2 files 
+3 directories, 2 files
 ```
 
 #### 项目地址: [code-pieces/fe](https://github.com/SBaof/code-pieces/tree/master/fe)
-
-
 
 
 

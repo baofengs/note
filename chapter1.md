@@ -7,14 +7,14 @@
 >   * gulp-autoprefixer
 >   * gulp-minify-css
 >   * gulp-imagemin & imagemin-pngquant
+>
+> * 完整版配置示例
 
 ## 安装
 
 ```shell
 npm install -g gulp
 ```
-
-
 
 ## 基本使用
 
@@ -126,6 +126,76 @@ gulp.task('imagemin', function() {
 })
 ...
 ```
+
+## 完整版配置示例
+
+### gulpfile.js
+
+```js
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var browserSync = require('browser-sync');
+
+var config = {
+  webRoot: 'public',
+  devRoot: 'app'
+}
+
+function handlerErr(err) {
+  console.log(err.toString());
+  this.emit('end');
+}
+
+gulp.task('server', ['build', 'sass'], function() {
+  browserSync.init({
+    server: {
+      baseDir: config.webRoot
+    }
+  })
+})
+
+gulp.task('build', function() {
+  gulp.src('app/**/*.html')
+      .pipe(gulp.dest('public'));
+})
+
+gulp.task('rebuild', ['build'], function() {
+  browserSync.reload();
+})
+
+gulp.task('sass', function() {
+  gulp.src('app/**/*.scss')
+      .pipe(sass()).on('error', handlerErr)
+      .pipe(gulp.dest('public'))
+      .pipe(browserSync.reload({stream: true}));
+})
+
+gulp.task('watch', function() {
+  gulp.watch(['app/**/*.html'], ['rebuild']);
+  gulp.watch(['app/**/*.scss'], ['sass']);
+})
+
+gulp.task('default', ['server', 'watch'])
+```
+
+### 项目目录结构
+
+```bash
+╭─bjhl@bogon ~/projects/codePieces ~^o^~👣
+╰─➤  tree fe -L 1
+fe
+├── app              // 开发目录
+├── gulpfile.js
+├── node_modules
+├── package.json
+└── public           // 编译生成的结果目录
+
+3 directories, 2 files 
+```
+
+#### 项目地址: [code-pieces/fe](https://github.com/SBaof/code-pieces/tree/master/fe)
+
+
 
 
 

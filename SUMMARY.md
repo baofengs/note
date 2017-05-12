@@ -4,7 +4,8 @@
 * [Js工具-gulp](gulp.md)
 * [CSS](css.md)
   * [selectors](css/selectors.md)
-* [Javascript: The Good Parts](javascript-the-good-parts.md)
 * [PHP](php.md)
   * [ThinkPHP](php/thinkphp.md)
+* [Books](books.md)
+  * [Javascript: The Good Parts](books/javascript-the-good-parts.md)
 

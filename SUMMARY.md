@@ -7,6 +7,7 @@
   * [selectors](css/selectors.md)
 * [PHP](php.md)
   * [ThinkPHP](php/thinkphp.md)
+  * [杂项](php/za-xiang.md)
 * [Books](books.md)
   * [Javascript: The Good Parts](books/javascript-the-good-parts.md)
 

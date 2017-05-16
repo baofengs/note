@@ -8,7 +8,7 @@
 
 * Javascript语言精粹
 
-* Javascript 高级程序设计
+* Javascript 高级程序设计（Professional Javascript for web developers）
 
 * MDN
 

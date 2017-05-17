@@ -15,8 +15,6 @@
   * 某些间隔会被跳过
   * 多个定时器的代码执行之间的间隔可能会比预期小
 
-  ![](/assets/WX20170517-112927.png)
-
 * 为避免 setInterval 的两个问题，使用链式 setTimeout\(\)调用
 
 ```js
@@ -36,6 +34,7 @@ setTimeout(function() {
 * 实例：将一个&lt;div&gt;元素向右移动，在200px 处停止
 
 ```js
+// 示例在 chrome下存在的问题：初始状态时获取 left 值出错，得到的结果为空字符串
 setTimeout(function() {
     const div = document.getEelementById("myDiv");
     let left = parseInt(div.style.left) + 5;
@@ -44,6 +43,8 @@ setTimeout(function() {
     }
 }, 50);
 ```
+
+
 
 
 

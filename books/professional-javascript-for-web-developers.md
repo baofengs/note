@@ -11,16 +11,18 @@
 #### 重复的定时器
 
 * setInterval\(\)：创建的定时器保证定时器代码规则的插入到队列中，存在的问题：
+
   * 某些间隔会被跳过
   * 多个定时器的代码执行之间的间隔可能会比预期小
 
   ![](/assets/WX20170517-112927.png)
+
 * 为避免 setInterval 的两个问题，使用链式 setTimeout\(\)调用
 
 ```js
 setTimeout(function() {
     // handling...
-    
+
     // arguments.callee：获取当前执行函数的引用 & 为其设置一个新的定时器
     setTimeout(arguments.callee, interval);
 }, interval);
@@ -31,7 +33,7 @@ setTimeout(function() {
  */
 ```
 
-* 实例：将一个&lt;div&gt;元素向右移动
+* 实例：将一个&lt;div&gt;元素向右移动，在200px 处停止
 
 ```js
 setTimeout(function() {
@@ -42,30 +44,6 @@ setTimeout(function() {
     }
 }, 50);
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

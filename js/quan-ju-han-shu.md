@@ -12,7 +12,7 @@
 | 非转义的字符 | 字母 数字 - \_ . ! ~ \* ' \( \) |
 | 数字符号 | \# |
 
-```javascript
+```js
 let link = 'https://www.baidu.com/s?ie=UTF-8&wd=js%20%E5%85%A8%E5%B1%80%E5%87%BD%E6%95%B0';
 // decodeURI: decodeURI() 函数可对 encodeURI() 函数编码过的 URI 进行解码。
 const decoded = decodeURI(link);

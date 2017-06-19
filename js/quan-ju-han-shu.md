@@ -2,7 +2,7 @@
 
 ## encodeURI/decodeURI
 
-* \[encodeURI\]\([https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global\_Objects/encodeURI](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURI%29%29\)
+* \[encodeURI\]\([https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global\_Objects/encodeURI](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURI%29%29\)\)
 
   * 不转换字符
 

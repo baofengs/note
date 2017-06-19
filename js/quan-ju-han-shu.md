@@ -2,8 +2,9 @@
 
 ## encodeURI/decodeURI
 
-* \[encodeURI\]\(https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global\_Objects/encodeURI\)
+* \[encodeURI\]\([https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global\_Objects/encodeURI\](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/encodeURI\)\)
   * 不转换字符
+
   * | 类型 | 字符 |
     | :--- | :--- |
     | 保留字符 | ; , / ? : @ & = + $ |

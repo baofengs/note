@@ -2,7 +2,7 @@
 
 ## encodeURI/decodeURI
 
-* encodeURI
+* \[encodeURI\]\(https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global\_Objects/encodeURI\)
   * 不转换字符
   * | 类型 | 字符 |
     | :--- | :--- |
@@ -21,10 +21,6 @@ const decoded = decodeURI(link);
 const encoded = encodeURI(decoded);
 <= "https://www.baidu.com/s?ie=UTF-8&wd=js%20%E5%85%A8%E5%B1%80%E5%87%BD%E6%95%B0"
 ```
-
-
-
-
 
 
 

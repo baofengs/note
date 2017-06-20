@@ -7,7 +7,7 @@
   * [全局对象](js/quan-ju-han-shu.md)
   * [IIFE](js/iife.md)
   * [跨域](js/kua-yu.md)
-  * [DOM 操作](js/dom-cao-zuo.md)
+  * [DOM ](js/dom-cao-zuo.md)
 * [HTML&CSS](html.md)
   * [强制换行](html/qiang-zhi-huan-xing.md)
   * [字符长度截断，末尾显示『...』](html/zi-fu-chang-du-jie-duan-ff0c-mo-wei-xian-shi-300e-300f.md)

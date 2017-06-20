@@ -12,11 +12,7 @@
 }
 ```
 
-MDN user-select: \[https://developer.mozilla.org/zh-CN/docs/Web/CSS/user-select\]\(https://developer.mozilla.org/zh-CN/docs/Web/CSS/user-select\)
+MDN user-select: [https://developer.mozilla.org/zh-CN/docs/Web/CSS/user-select\]](https://developer.mozilla.org/zh-CN/docs/Web/CSS/user-select]%28https://developer.mozilla.org/zh-CN/docs/Web/CSS/user-select\)
 
-Code Pen: \[https://codepen.io/SanBf/pen/QgpoKJ\]\(https://codepen.io/SanBf/pen/QgpoKJ\)
-
-
-
-
+Code Pen: https://codepen.io/SanBf/pen/QgpoKJ
 

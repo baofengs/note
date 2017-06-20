@@ -1,4 +1,6 @@
-## 文本长度限制，超出部分显示...
+## 文本长度限制
+
+> 在块级元素中，文本长度过长，超出部分隐藏，末尾显示「...」
 
 ```HTML
 <div class="container">
@@ -28,9 +30,5 @@
 }
 ```
 
-示例展示：https://codepen.io/SanBf/pen/VWbLGv
-
-
-
-
+示例展示：[https://codepen.io/SanBf/pen/VWbLGv](https://codepen.io/SanBf/pen/VWbLGv)
 

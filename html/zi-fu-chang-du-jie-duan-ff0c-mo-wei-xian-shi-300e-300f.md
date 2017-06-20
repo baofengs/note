@@ -2,6 +2,8 @@
 
 > 在块级元素中，文本长度过长，超出部分隐藏，末尾显示「...」
 
+![](/assets/text.png)
+
 ```HTML
 <div class="container">
   <div class="item" title="两情若是久长时，又岂在朝朝暮暮">两情若是久长时，又岂在朝朝暮暮</div>
@@ -31,4 +33,14 @@
 ```
 
 示例展示：[https://codepen.io/SanBf/pen/VWbLGv](https://codepen.io/SanBf/pen/VWbLGv)
+
+
+
+
+
+
+
+
+
+
 

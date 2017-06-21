@@ -48,5 +48,43 @@ var add = new Function(
 
 Js 中将函数看做是一种值，与数值，字符串等地位相同，故称为函数为第一等公民
 
+### 函数名提升
+
+采用 \`function\` 命令声明函数时，整个函数会像变量申明一样，提升到代码头部
+
+```js
+f();
+// function 命令声明
+function f() {}
+// good
+
+f();
+// 函数表达式方式声明
+var f = function () {};
+// "TypeError: f is not a function
+<==>
+var f;
+f();
+f = function () { // todo };
+```
+
+### 不能在条件语句中声明函数
+
+```js
+if (false) {
+    function f () {}
+} 
+```
+
+
+
+
+
+
+
+
+
+
+
 
 

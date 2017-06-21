@@ -170,6 +170,7 @@ function y (f) {
 y(x); // Uncaught SyntaxError: Unexpected identifier
 
 // 内部声明的函数，作用域绑定在函数体内部
+// 函数 bar 在函数 foo 内部声明，作用域绑定在函数 foo 内部，在函数 foo 外部取出函数 bar 执行时，变量 a 指向函数体 foo 内部的 x
 function foo () {
     var a = 1;
     function bar() {

@@ -151,13 +151,23 @@ function (x) {
 var a = 1;
 var x = function () {
     console.log(a);
-}
+};
 function f () {
     var a = 2;
     x();
 }
 
 f(); // 1
+
+var x = function () {
+    console.log(a);
+};
+function y (f) {
+    var a = 2;
+    f();
+}
+
+y(x); // Uncaught SyntaxError: Unexpected identifier
 ```
 
 

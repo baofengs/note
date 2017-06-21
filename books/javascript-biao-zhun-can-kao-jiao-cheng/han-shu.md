@@ -187,9 +187,112 @@ f(); // 1
 ### 参数
 
 * 连续相同的参数取最后出现的值
-* arguments 读取传入函数内的所有参数
+* arguments 读取传入函数内的所有参数，类型：object
 * 值传递：原始类型（数值，字符串，布尔值）
-* 引用传递：复合类型（数组，对象，其他函数）
+* 引用传递：复合类型（数组，对象，其他函数），
+  * 只修改传入参数的某个值影响原始值
+  * 整体替换不影响原始值
+
+### 闭包
+
+* 定义在函数内部的函数
+* 链式作用域：子对象会一级一级向上寻找父对象的变量，父对象的所有变量对于子对象是可见的，反之不成立
+* 闭包的作用
+  * 读取函数内部的变量
+
+  * 让这些变量始终保持在内存中
+
+  * 封装对象的私有属性 & 私有方法
+
+```js
+// 读取函数内部的变量
+function f1 () {
+    var n = 999;
+    // 闭包
+    function f2() {
+        console.log(n);
+    }
+    return f2;
+}
+
+var res = f1();
+res(); // 999
+
+// 变量保持在内存中
+function add (i) {
+    return function() {
+        console.log(++i);
+    }
+}
+
+var a = add(1);
+a(); // 2
+a(); // 3
+
+// 封对象的私有属性 & 私有方法
+function Person(name) {
+    var _age;
+    function setAge(n) {
+        _age = n;
+    }
+    function getAge() {
+        return _age;
+    }
+    return {
+        name,
+        getAge,
+        setAge
+    };
+}
+
+var Jim = new Person("Jim");
+Jim.setAge(28);
+Jim.getAge(); // 28
+```
+
+### 立即执行函数表达式（IIFE）
+
+* 采用 function 命令声明函数，如果 function 出现在行首，一律解释为语句
+* 通常情况下，只对匿名函数使用 IIFE，目的：
+  * 不必为函数命名，避免污染全局变量
+  * IIFE 内部构成独立作用域，封装外部无法读取的私有变量
+
+```js
+// 合法的 IIFE
+(function () {} ());
+(function () {})();
+
+var i = function () { return 1; } ();
+
+!function () {} ();
+~function () {} ();
+-function () {} ();
++function () {} ();
+
+new function () {};
+// 最后的括号用于传参
+new function () {} ();
+
+(function () {
+    var tmp = newData;
+    foo(tmp);
+    bar(tmp);
+})
+```
+
+### eval 命令
+
+作用：将字符串当做语句执行
+
+
+
+
+
+
+
+
+
+
 
 
 

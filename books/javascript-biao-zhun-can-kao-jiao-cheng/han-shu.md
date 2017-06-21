@@ -88,7 +88,56 @@ if (false) {
 }
 ```
 
+### name & length & toString
 
+```js
+function f1 () {}
+f1.name // f1
+var f2 = function () {}
+f2.name // f2
+var f3 = function myName() {}
+f3.name // myName
+
+// length：函数的预期传入参数个数
+function f (a, b, c) () 
+f.length // 3
+
+// toString：返回函数的源码
+function f () {
+    console.log('toString：返回函数的源码')
+}
+f.toString();
+// "function f() {
+// console.log('toString：返回函数的源码')
+// }"
+```
+
+### 函数作用域
+
+函数作用域：**变量**存在的范围
+
+* 全局作用域：变量在整个程序中都存在，所有地方可读取
+* 函数作用域：变量只在函数内部存在
+
+* 全局变量：函数外部声明的变量，所有地方可读取
+* 局部变量：函数内部声明，外部无法读取，作用域内覆盖同名全局变量
+
+### 函数内部变量提升
+
+```js
+function (x) {
+    if (x > 100) {
+        var tmp = x - 100;
+    }
+}
+<==>
+function (x) {
+    var tmp;
+    if (x > 100) {
+        tmp = x - 100;
+    }
+}
+```
 
 
 

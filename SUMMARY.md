@@ -23,4 +23,5 @@
   * [Professional Javascript For Web Developers](books/professional-javascript-for-web-developers.md)
     * [高级定时器](books/professional-javascript-for-web-developers/gao-ji-ding-shi-qi.md)
   * [Javascript 标准参考教程](books/javascript-biao-zhun-can-kao-jiao-cheng.md)
+    * [函数](books/javascript-biao-zhun-can-kao-jiao-cheng/han-shu.md)
 

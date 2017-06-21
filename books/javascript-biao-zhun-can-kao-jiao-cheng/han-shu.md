@@ -2,7 +2,7 @@
 
 * function 命令
 
-```Javascript
+```js
 function init () {
     console.log('foo');
 }
@@ -10,7 +10,7 @@ function init () {
 
 * 函数表达式
 
-```Javascript
+```js
 // 讲一个匿名函数赋值给一个变量
 var foo = function () {
     console.log('bar');
@@ -28,6 +28,7 @@ bar  // Uncaught ReferenceError: bar1 is not defined
 * Function 构造函数
 
 ```js
+// 构造函数最后一个参数会被当成函数体，其他的都是这个函数体的参数
 var add = new Function(
     'x',
     'y',

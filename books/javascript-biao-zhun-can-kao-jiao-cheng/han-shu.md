@@ -71,9 +71,21 @@ f = function () { // todo };
 ### 不能在条件语句中声明函数
 
 ```js
+// 😒 函数名提升，无效
 if (false) {
     function f () {}
-} 
+}
+
+try {
+    function f () {}
+} catch (e) {
+    console.log(e);
+}
+
+// 😊 使用函数表达式方式声明可以到达目的
+if (false) {
+    var f = function () {};
+}
 ```
 
 

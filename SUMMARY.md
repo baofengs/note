@@ -12,6 +12,7 @@
   * [字符长度截断，末尾显示『...』](html/zi-fu-chang-du-jie-duan-ff0c-mo-wei-xian-shi-300e-300f.md)
   * [输入框文本排版显示](html/shu-ru-kuang-wen-ben-pai-ban-xian-shi.md)
   * [文本不可选](html/wen-ben-bu-ke-xuan.md)
+  * [background](html/background.md)
 * [CSS](css.md)
   * [selectors](css/selectors.md)
 * [PHP](php.md)

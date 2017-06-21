@@ -6,13 +6,13 @@
 
 # Books
 
-* Javascript 语言精粹
+* Javascript 语言精
 
-* Javascript 高级程序设计（Professional Javascript for web developers）
+* Javascript 高级程序设计（第三版）
 
 * MDN
 
-* Javascript 标准参考教程
+* [Javascript 标准参考教程](http://javascript.ruanyifeng.com/)
 
 ## Code Pieces
 

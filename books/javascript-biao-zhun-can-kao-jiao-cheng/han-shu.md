@@ -25,5 +25,19 @@ bar  // Uncaught ReferenceError: bar1 is not defined
 *好处*：1）函数体内部调用自身；2）方便排错，据说是除错工具显示函数调用栈是将显示函数名，而不提示这里是一个匿名函数
 ```
 
+* Function 构造函数
+
+```js
+var add = new Function(
+    'x',
+    'y',
+    'return x + y';
+)
+ <==>
+ function add (x, y) {
+     return x + y;
+ }
+```
+
 
 

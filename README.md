@@ -6,7 +6,7 @@
 
 # Books
 
-* Javascript 语言精
+* Javascript 语言精粹
 
 * Javascript 高级程序设计（第三版）
 

@@ -38,5 +38,5 @@
   * :window-inactive – 用于所有的滚动条轨道，指示应用滚动条的某个页面容器\(元素\)是否当前被激活。\(在webkit最近的版本中，该伪类也可以用于::selection伪元素。webkit团队有计划扩展它并推动成为一个标准的伪类\)
   * 另外，:enabled、:disabled、:hover 和 :active 等伪类同样可以用于滚动条中。
 
-
+DEMO：
 

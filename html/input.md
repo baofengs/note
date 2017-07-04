@@ -48,6 +48,31 @@ function changeHandler(event) {
 
 ### 样式自定义
 
+禁用自动补全
+
+* autocomplete 属性：on/off
+
+```
+<input type="text" autocomplete="on/off"/>
+```
+
+边框处理
+
+```
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+input:focus {
+    outline: none;
+    border-bottom-color: #fff;
+}
+```
+
+最终效果：
+
+
+
 ### 
 
 

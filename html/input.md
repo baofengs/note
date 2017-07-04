@@ -12,7 +12,8 @@ const value = document.querySelector('#foo').value;
 onchange
 
 * 触发时机:
-  *  &lt;input type="radio"&gt; 和 &lt;input type="checkbox"&gt; 的默认选项被修改时（通过点击或者键盘事件）;
+
+  * &lt;input type="radio"&gt; 和 &lt;input type="checkbox"&gt; 的默认选项被修改时（通过点击或者键盘事件）;
   * 当用户完成提交动作时 \(例如：点击了 &lt;select&gt;中的一个选项，从 &lt;input type="date"&gt;标签选择了一个日期，通过 &lt;input type="file"&gt;标签上传了一个文件，等 \);
 
   * 当标签的值被修改并且失焦后，但并未进行提交 \(例如：对&lt;textarea&gt; 或者&lt;input type="text"&gt;的值进行编辑后。\).

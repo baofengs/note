@@ -178,6 +178,46 @@ y
 <= 999
 ```
 
+为了避免歧义，Js 规定，所有首行大括号，统一解释为语句，即大括号表示代码块；如果要解释为表达式，即对象，则加上括号
+
+```
+{ foo: 'bar' } // 语句
+({ foo: 'bar' }) // 表达式
+```
+
+#### 对象的属性
+
+```
+#### 检测某个属性是否存在
+// window 上不存在的属性
+console.log(window.a); // undefined
+console.log(window['a']); // undefined
+
+// 正确做法
+if ('a' in window) {
+    // 属性存在
+} else {
+    // 属性不存在
+}
+
+### 查看所有属性
+var a = {
+    key1: 1,
+    key2: 2
+};
+Object.keys(a)
+<= ["key1", "key2"]
+
+### 删除对象的某个属性
+var o = {
+    p: 998
+    q: 198
+}
+o.p // 998
+delete o.p
+o.p // undefined
+```
+
 
 
 

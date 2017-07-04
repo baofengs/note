@@ -25,7 +25,13 @@ console.log(b);
 * 原始类型
   * 数值：整数 & 小数
   * 字符串：字符组成的文本
-  * 布尔值：true & false
+  * 布尔值：true & false，以下根据转换规则转换后为 false，其他都为 true
+    * undefined
+    * null
+    * false
+    * NaN
+    * 0
+    * '' OR ""
 * 特殊值
   * undefined：未定义 OR 不存在
   * null：无值
@@ -38,6 +44,14 @@ console.log(b);
     * 数组：array
 
     * 函数：function
+
+### parseInt & parseFloat
+
+parseInt\(\)：1）字符串转化为整数；2）进制转化
+
+parseFloat\(\)：字符串转化为浮点数
+
+
 
 
 

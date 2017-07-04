@@ -285,3 +285,39 @@ new function () {} ();
 
 作用：将字符串当做语句执行
 
+#### 调用方式
+
+直接调用：eval 所在作用域为当前作用域
+
+间接调用：eval 所在作用域为全局作用域
+
+```js
+// 直接调用
+eval('return 1');
+
+var a = 1;
+eval('a = 2')
+<= 2
+
+// 严格模式下，直接调用仍然是当前作用域
+(function f() {
+  'use strict';
+  var foo = 1;
+  eval('foo = 2');
+  console.log(foo);  // 2
+})()
+
+// 间接调用
+var a = 1;
+
+function f() {
+  var a = 2;
+  var e = eval;
+  e('console.log(a)');
+}
+
+f() // 1
+```
+
+
+

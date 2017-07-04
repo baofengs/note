@@ -17,6 +17,7 @@
   * [background](html/background.md)
   * [CSS-@expend](html/css-expend.md)
   * [px & em & rem](html/px-and-em-and-rem.md)
+  * [input](html/input.md)
 * [CSS](css.md)
   * [selectors](css/selectors.md)
 * [PHP](php.md)

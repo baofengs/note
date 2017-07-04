@@ -63,6 +63,7 @@ input {
     border: none;
     border-bottom: 1px solid #ccc;
 }
+// 禁用聚焦时的边框
 input:focus {
     outline: none;
     border-bottom-color: #fff;
@@ -70,8 +71,6 @@ input:focus {
 ```
 
 最终效果：
-
-
 
 ### 
 

@@ -1,4 +1,4 @@
-## Js 全局对象使用总结
+## Js 全局对象使用
 
 ## encodeURI/decodeURI
 
@@ -21,10 +21,6 @@ const decoded = decodeURI(link);
 const encoded = encodeURI(decoded);
 <= "https://www.baidu.com/s?ie=UTF-8&wd=js%20%E5%85%A8%E5%B1%80%E5%87%BD%E6%95%B0"
 ```
-
-
-
-
 
 
 

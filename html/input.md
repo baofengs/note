@@ -62,6 +62,7 @@ function changeHandler(event) {
 input {
     border: none;
     border-bottom: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, .5);
 }
 // 禁用聚焦时的边框
 input:focus {
@@ -71,6 +72,8 @@ input:focus {
 ```
 
 最终效果：
+
+
 
 ### 
 

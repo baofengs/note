@@ -2,6 +2,8 @@
 
 形如：data-\*
 
+示例：
+
 ```js
 <div id="user" data-id="1234567890" data-user="johndoe" data-date-of-birth>John Doe
 </div>

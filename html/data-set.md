@@ -23,5 +23,7 @@ el.dataset.someDataAttr = 'mydata';
 // 'someDataAttr' in el.dataset === true
 ```
 
+MDN：[https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/dataset](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/dataset)
 
+codePen：[https://codepen.io/SanBf/pen/ZyVrWg](https://codepen.io/SanBf/pen/ZyVrWg)
 

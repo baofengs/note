@@ -37,5 +37,6 @@
 * [Server](server.md)
   * [Nginx 相关设置](nginx-fan-xiang-dai-li-she-zhi.md)
   * [express 进程管理工具](express-jin-cheng-guan-li-gong-ju.md)
+  * [证书生成](zheng-shu-sheng-cheng.md)
 * [FE必备](febi-bei.md)
 

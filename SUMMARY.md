@@ -35,7 +35,7 @@
     * [函数](books/javascript-biao-zhun-can-kao-jiao-cheng/han-shu.md)
     * [查漏补缺](books/javascript-biao-zhun-can-kao-jiao-cheng/cha-lou-bu-que.md)
 * [Server](server.md)
-  * [Nginx 反向代理设置](nginx-fan-xiang-dai-li-she-zhi.md)
+  * [Nginx 相关设置](nginx-fan-xiang-dai-li-she-zhi.md)
   * [express 进程管理工具](express-jin-cheng-guan-li-gong-ju.md)
 * [FE必备](febi-bei.md)
 

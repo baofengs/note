@@ -6,5 +6,9 @@
 
 xScope：设计辅助软件（[http://xclient.info/s/xscope.html?\_=a66f3dc5a09a4f21526e5e4016022b89](http://xclient.info/s/xscope.html?_=a66f3dc5a09a4f21526e5e4016022b89)）
 
+### 中文参考手册
+
+手册：http://cndevdocs.com/
+
 
 

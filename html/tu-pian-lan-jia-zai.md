@@ -19,9 +19,10 @@ function loadImage() {
             }
         })
     } else {
-        window.removeEventListener('scroll', load);
+        window.removeEventListener('scroll', loadImage);
     }
 }
+window.addEventListener('scroll', loadImage);
 ```
 
 示例：[https://sbaof.github.io/code-pieces/fe/public/lazyLoad/](https://sbaof.github.io/code-pieces/fe/public/lazyLoad/)

@@ -22,6 +22,7 @@
   * [data-set](html/data-set.md)
   * [CSS 伪元素](html/css-wei-yuan-su.md)
   * [网页打印](html/qian-duan-da-yin.md)
+  * [图片懒加载](html/tu-pian-lan-jia-zai.md)
 * [CSS](css.md)
   * [selectors](css/selectors.md)
 * [PHP](php.md)

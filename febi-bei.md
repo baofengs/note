@@ -8,7 +8,11 @@ xScope：设计辅助软件（[http://xclient.info/s/xscope.html?\_=a66f3dc5a09a
 
 ### 中文参考手册
 
-手册：http://cndevdocs.com/
+手册：[http://cndevdocs.com/](http://cndevdocs.com/)
+
+### 随机图片服务
+
+* http://lorempixel.com/
 
 
 

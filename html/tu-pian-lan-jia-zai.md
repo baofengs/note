@@ -27,3 +27,5 @@ window.addEventListener('scroll', loadImage);
 
 示例：[https://sbaof.github.io/code-pieces/fe/public/lazyLoad/](https://sbaof.github.io/code-pieces/fe/public/lazyLoad/)
 
+http://jzleung.github.io/2016/08/05/without-jquery-lazyload-js/
+

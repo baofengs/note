@@ -2,6 +2,8 @@
 
 显示设备信息：[https://mydevice.io/](https://mydevice.io/)
 
+兼容处理：http://browserhacks.com/
+
 ### 工具：
 
 xScope：设计辅助软件（[http://xclient.info/s/xscope.html?\_=a66f3dc5a09a4f21526e5e4016022b89](http://xclient.info/s/xscope.html?_=a66f3dc5a09a4f21526e5e4016022b89)）
@@ -14,7 +16,7 @@ xScope：设计辅助软件（[http://xclient.info/s/xscope.html?\_=a66f3dc5a09a
 
 * [http://lorempixel.com/](http://lorempixel.com/)
 * [https://unsplash.it/1920/1080/?random](https://unsplash.it/1920/1080/?random)
-* https://placeholder.com/
+* [https://placeholder.com/](https://placeholder.com/)
 
 
 

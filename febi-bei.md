@@ -2,7 +2,9 @@
 
 显示设备信息：[https://mydevice.io/](https://mydevice.io/)
 
-兼容处理：http://browserhacks.com/
+兼容处理：[http://browserhacks.com/](http://browserhacks.com/)
+
+查看可用：http://caniuse.com/
 
 ### 工具：
 

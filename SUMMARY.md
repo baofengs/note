@@ -9,6 +9,7 @@
   * [DOM ](js/dom-cao-zuo.md)
   * [JSDoc](js/jsdoc.md)
   * [函数节流](js/han-shu-jie-liu.md)
+  * [count to](js/count-to.md)
 * [HTML&CSS](html.md)
   * [强制换行](html/qiang-zhi-huan-xing.md)
   * [字符长度截断，末尾显示『...』](html/zi-fu-chang-du-jie-duan-ff0c-mo-wei-xian-shi-300e-300f.md)

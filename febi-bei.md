@@ -21,7 +21,8 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 * [http://lorempixel.com/](http://lorempixel.com/)
 * [https://unsplash.it/1920/1080/?random](https://unsplash.it/1920/1080/?random)
 * [https://placeholder.com/](https://placeholder.com/)
-* http://coverr.co/
+* https://pixabay.com/api/docs/
+* [http://coverr.co/](http://coverr.co/)
 
 ### 其他
 

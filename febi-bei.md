@@ -22,7 +22,7 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 * [https://unsplash.it/1920/1080/?random](https://unsplash.it/1920/1080/?random)
 * [https://placeholder.com/](https://placeholder.com/)
 * [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
-* [http://coverr.co/](http://coverr.co/) - beautiful, free videos for homepage
+* [http://coverr.co/](http://coverr.co/) - beautiful, free videos for homepage 
 
 ### 其他
 

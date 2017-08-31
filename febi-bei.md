@@ -27,6 +27,9 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 ### 其他
 
 * git：[https://git-scm.com/](https://git-scm.com/)
+* 使用Tesseract识别弱验证码：https://doc.yonyoucloud.com/doc/ae/920457.html
+
+
 
 
 

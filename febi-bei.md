@@ -33,5 +33,5 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 
 CSShake: [http://elrumordelaluz.github.io/csshake/](http://elrumordelaluz.github.io/csshake/)
 
-interact.js：http://interactjs.io/（JavaScript drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers）
+interact.js：[http://interactjs.io/](http://interactjs.io/)（JavaScript drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers）
 

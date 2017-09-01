@@ -92,7 +92,11 @@
 }
 ```
 
-> https://jsbin.com/wuneroziva/edit?html,css,output
+> [https://jsbin.com/wuneroziva/edit?html,css,output](https://jsbin.com/wuneroziva/edit?html,css,output)
+
+#### float
+
+指定元素沿着容器左侧或者右侧防止，同时允许文字或者内联元素环绕它
 
 
 

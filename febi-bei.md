@@ -6,6 +6,8 @@
 
 查看可用：[http://caniuse.com/](http://caniuse.com/)
 
+npm 包质量：https://npms.io/
+
 ### 工具：
 
 xScope：设计辅助软件（[http://xclient.info/s/xscope.html?\_=a66f3dc5a09a4f21526e5e4016022b89](http://xclient.info/s/xscope.html?_=a66f3dc5a09a4f21526e5e4016022b89)）
@@ -28,6 +30,7 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 
 * git：[https://git-scm.com/](https://git-scm.com/)
 * 使用Tesseract识别弱验证码：[https://doc.yonyoucloud.com/doc/ae/920457.html](https://doc.yonyoucloud.com/doc/ae/920457.html)
+* 内网穿透：https://ngrok.com/
 
 ### FUN
 

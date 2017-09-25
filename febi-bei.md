@@ -6,7 +6,9 @@
 
 查看可用：[http://caniuse.com/](http://caniuse.com/)
 
-npm 包质量：https://npms.io/
+npm 包质量：[https://npms.io/](https://npms.io/)
+
+Google 字体库：https://fonts.google.com
 
 ### 工具：
 
@@ -30,7 +32,7 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 
 * git：[https://git-scm.com/](https://git-scm.com/)
 * 使用Tesseract识别弱验证码：[https://doc.yonyoucloud.com/doc/ae/920457.html](https://doc.yonyoucloud.com/doc/ae/920457.html)
-* 内网穿透：https://ngrok.com/
+* 内网穿透：[https://ngrok.com/](https://ngrok.com/)
 
 ### FUN
 

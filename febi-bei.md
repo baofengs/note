@@ -8,7 +8,9 @@
 
 npm 包质量：[https://npms.io/](https://npms.io/)
 
-Google 字体库：https://fonts.google.com
+Google 字体库：[https://fonts.google.com](https://fonts.google.com)
+
+字体包相关：https://www.fontsquirrel.com/
 
 ### 工具：
 

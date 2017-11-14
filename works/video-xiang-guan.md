@@ -1,4 +1,4 @@
-开发中使用 &lt;video&gt; 遇到的问题 & 解决
+# 开发中使用 &lt;video&gt; 遇到的问题 & 解决
 
 * 编码格式问题
 
@@ -28,11 +28,11 @@
 
 * &lt;video&gt; 中使用多个 &lt;source&gt; 时，可使用相同视频格式类型，浏览器会加载首个可以播放的视频
 * 浏览器 HTML5 测试
-  * http://chrome.360.cn/test/html5/index.html
+  * [http://chrome.360.cn/test/html5/index.html](http://chrome.360.cn/test/html5/index.html)
 * 其他问题
   * 为什么video不能填满整个父级div？底部有黑边？
-    * https://segmentfault.com/q/1010000008653026\#answers-title
-* * HTML5中Video开发遇到的一些坑： https://zhuanlan.zhihu.com/p/22675552
+    * [https://segmentfault.com/q/1010000008653026\#answers-title](https://segmentfault.com/q/1010000008653026#answers-title)
+* * HTML5中Video开发遇到的一些坑： [https://zhuanlan.zhihu.com/p/22675552](https://zhuanlan.zhihu.com/p/22675552)
 
 
 

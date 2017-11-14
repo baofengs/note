@@ -24,12 +24,15 @@
 // 其他方式设置 <video>
 <video width="1040" src="https://xxx.com/video/foo.mp4" autoplay="" loop="" poster="">
 </video>
-
-
 ```
 
 * &lt;video&gt; 中使用多个 &lt;source&gt; 时，可使用相同视频格式类型，浏览器会加载首个可以播放的视频
-* 给 &lt;video&gt; 设置 poster
+* 浏览器 HTML5 测试
+  * http://chrome.360.cn/test/html5/index.html
+* 其他问题
+  * 为什么video不能填满整个父级div？底部有黑边？
+    * https://segmentfault.com/q/1010000008653026\#answers-title
+* * HTML5中Video开发遇到的一些坑： https://zhuanlan.zhihu.com/p/22675552
 
 
 

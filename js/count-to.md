@@ -15,8 +15,6 @@ function animateValue(id, start, end, duration) {
 }
 
 animateValue("value", 100, 25, 2000);
-
-
 ```
 
 

@@ -33,6 +33,10 @@
   * 为什么video不能填满整个父级div？底部有黑边？
     * [https://segmentfault.com/q/1010000008653026\#answers-title](https://segmentfault.com/q/1010000008653026#answers-title)
 * * HTML5中Video开发遇到的一些坑： [https://zhuanlan.zhihu.com/p/22675552](https://zhuanlan.zhihu.com/p/22675552)
+* 新版本 Safari 11.0 默认设置会禁用带有声音视频的自动播放
+  * 解决方案：删除视频的音轨
+  * 官方给出的是使用静音标签页和窗口 https://support.apple.com/zh-cn/guide/safari/ibrw29c6ecf8/mac
+  * ![](/assets/WechatIMG465.jpeg)
 
 
 

@@ -4,5 +4,11 @@ List of inline elements: [https://developer.mozilla.org/en-US/docs/Web/HTML/Inli
 
 List of block elements: [https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level\_elements\#Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
 
-foo
+| 元素类型 | 特点 |
+| :--- | :--- |
+| block |  |
+| inline |  |
+| inline-block |  |
+
+
 

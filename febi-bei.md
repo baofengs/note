@@ -10,7 +10,7 @@ npm 包质量：[https://npms.io/](https://npms.io/)
 
 Google 字体库：[https://fonts.google.com](https://fonts.google.com)
 
-字体包相关：https://www.fontsquirrel.com/
+字体包相关：[https://www.fontsquirrel.com/](https://www.fontsquirrel.com/)
 
 ### 工具：
 
@@ -21,6 +21,8 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 ### 中文参考手册
 
 手册：[http://cndevdocs.com/](http://cndevdocs.com/)
+
+gitbook 简明教程：http://www.chengweiyang.cn/gitbook/index.html
 
 ### 随机图片服务
 

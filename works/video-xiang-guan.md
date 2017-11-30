@@ -39,6 +39,7 @@
     * 添加 muted 属性（详情见此 [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/video](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/video)）
   * 官方给出的是使用静音标签页和窗口 [https://support.apple.com/zh-cn/guide/safari/ibrw29c6ecf8/mac](https://support.apple.com/zh-cn/guide/safari/ibrw29c6ecf8/mac)
   * ![](/assets/WechatIMG465.jpeg)
+  * 工具：https://www.ffmpeg.org/
 
 
 

@@ -22,7 +22,7 @@ photoshop：[http://www.lookae.com/cc2017/](http://www.lookae.com/cc2017/)
 
 手册：[http://cndevdocs.com/](http://cndevdocs.com/)
 
-gitbook 简明教程：http://www.chengweiyang.cn/gitbook/index.html
+gitbook 简明教程：[http://www.chengweiyang.cn/gitbook/index.html](http://www.chengweiyang.cn/gitbook/index.html)
 
 ### 随机图片服务
 
@@ -37,6 +37,7 @@ gitbook 简明教程：http://www.chengweiyang.cn/gitbook/index.html
 * git：[https://git-scm.com/](https://git-scm.com/)
 * 使用Tesseract识别弱验证码：[https://doc.yonyoucloud.com/doc/ae/920457.html](https://doc.yonyoucloud.com/doc/ae/920457.html)
 * 内网穿透：[https://ngrok.com/](https://ngrok.com/)
+* The**package manager**for Windows：https://chocolatey.org/
 
 ### FUN
 

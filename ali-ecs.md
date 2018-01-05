@@ -2,6 +2,7 @@
 
 * 语系错误：[https://www.douban.com/note/362250557/](https://www.douban.com/note/362250557/)
 * nginx：[http://www.jianshu.com/p/8d1f9a18bb5c](http://www.jianshu.com/p/8d1f9a18bb5c)
+* 小程序环境搭建：[http://js.jirengu.com/cikag](http://js.jirengu.com/cikag)
 
 
 

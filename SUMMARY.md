@@ -26,6 +26,7 @@
   * [CSS 伪元素](html/css-wei-yuan-su.md)
   * [网页打印](html/qian-duan-da-yin.md)
   * [图片懒加载](html/tu-pian-lan-jia-zai.md)
+  * [HTML5手机上传相册图片](html/html5shou-ji-shang-chuan-xiang-ce-tu-pian.md)
 * [CSS](css.md)
   * [selectors](css/selectors.md)
   * [layout](css/layout.md)

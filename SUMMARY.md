@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Js Tools](gulp.md)
   * [gulp](gulp/gulp.md)
+* [FE you should know](fe/you-should-know.md)
 * [Js](js.md)
   * [全局对象](js/quan-ju-han-shu.md)
   * [跨域](js/kua-yu.md)
@@ -54,4 +55,3 @@
   * [video 相关](works/video-xiang-guan.md)
   * [引入第三方 JS 代码库相关思考](works/yin-ru-di-san-fang-js-dai-ma-ku-xiang-guan-si-kao.md)
 * [ali ECS](ali-ecs.md)
-
